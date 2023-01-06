@@ -1,0 +1,37 @@
+{
+  "name": "post-command-hook-add-gitignore-plugin",
+  "version": "1.0.0",
+  "description": "Automatically adds .gitignore file plugin for post-command-hook",
+  "main": "index.js",
+  "keywords": [
+    "post-command-hook",
+    "gitignore",
+    "optimization",
+    "cli",
+    "command",
+    "workflow",
+    "productivity",
+    "plugin",
+    "terminal",
+    "file",
+    "util"
+  ],
+  "scripts": {
+    "prettify": "prettier --write .",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Rushan Alyautdinov",
+    "email": "akgondber@gmail.com",
+    "url": "https://github.com/akgondber"
+  },
+  "repository": "akgondber/post-command-hook-add-gitignore-plugin",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "prettier": "^2.8.1"
+  }
+}
